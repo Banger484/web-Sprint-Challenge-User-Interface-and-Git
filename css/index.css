@@ -96,7 +96,52 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.about-page{
+    display: flex;
+    flex-wrap:wrap;
+}
+.about-info{
+    margin-bottom:20px;
+    border-bottom: 1px dashed black;
+}
+.about-info p{
+    margin-bottom:20px;
+}
+.inner-about{
+    display:flex;
+    flex-wrap:wrap;
+}
+.inner-about img{
+    width:40%
+}
+.inner-about p{
+    width: 40%;
+    margin-bottom:20px;
+}
+.inner-about a{
+    display: flex;
+    border:2px solid black;
+    border-radius:10px;
+    width:20%;
+    padding:1.5%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    
+}
+.strat{
+    outline:1px solid black;
+}
+.work{
+    outline:1px solid black;
+}
+.place{
+    outline:1px solid black;
+}
+.colab{
+    outline:1px solid black;
+    margin-bottom:20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,6 +149,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .top-content .text-container {
     width: 48%;
@@ -181,6 +227,13 @@ p {
     padding-right: 0;
 }
 
+.together{
+    margin-bottom:20px;
+    border-bottom: 1px dashed black;
+}
+.together p{
+    margin-bottom:20px;
+}
 footer {
     width: 100%;
     background: black;
