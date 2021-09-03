@@ -112,35 +112,31 @@ p {
     flex-wrap:wrap;
 }
 .inner-about img{
-    width:40%
+    max-width: 100%;
 }
 .inner-about p{
-    width: 40%;
+    max-width: 100%;
     margin-bottom:20px;
 }
 .inner-about a{
+    text-decoration: none;
+    color: black;
     display: flex;
     border:2px solid black;
     border-radius:10px;
-    width:20%;
-    padding:1.5%;
+    width:40%;
+    padding:2.5%;
     align-items: center;
     justify-content: center;
     margin-bottom:10px;
     
 }
-.strat{
-    outline:1px solid black;
-}
-.work{
-    outline:1px solid black;
-}
-.place{
-    outline:1px solid black;
-}
-.colab{
-    outline:1px solid black;
+.inner-about section{
+    width: 45%;
     margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom: 1px dashed black;
 }
 .top-content {
     display: flex;
@@ -229,7 +225,6 @@ p {
 
 .together{
     margin-bottom:20px;
-    border-bottom: 1px dashed black;
 }
 .together p{
     margin-bottom:20px;
